@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 2</title>
+  </head>
+  <body>
+    <h1>Practice 2</h1>
+    <p>
+      Nhập vào chiều dài, chiều rộng của hình chữ nhật. In ra chu vi, diện tích
+      của hình chữ nhật đó
+    </p>
+    <script>
+      // chieu dai : length, chieu rong : width, hcn: rectangle, chu vi : perimeter, dien tich : area / square
+      let ChieuDai = parseFloat(prompt("please enter ChieuDai: "));
+      // alert('value of ChieuDai: ' + ChieuDai);
+      // alert('type of ChieuDai: ' + typeof(ChieuDai));
+      let ChieuRong = parseFloat(prompt("please enter ChieuRong: "));
+      let ChuVi = ( ChieuDai + ChieuRong ) * 2;
+          DienTich = ChieuDai * ChieuRong;
+      alert(`chu vi cua hcn la: ${ChuVi}` );
+      alert(`dien tich cua hcn la: ${DienTich}`);
+    </script>
+  </body>
+</html>
